@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./Style.css">
+    <title>Mobile Design - Muhammad Kamran</title>
+</head>
+<body>
+
+<div class="mobile">
+
+<div class="top"></div>
+
+<div class="bottom"></div>
+
+<div class="screen">
+<img src="./mble img.jpeg">
+<h2>12:00<span>AM</span> <br> <span>21th May 2019</span> </h2>
+<ul>
+<li><i class="fa fa-phone"></i></li>
+<li><i class="fa fa-comment-o"></i></li>
+<li><i class="fa fa-picture-o"></i></li>
+<li><i class="fa fa-camera"></i></li>
+</ul>
+</div>
+</div>
+
+<div class="last-name">
+<p>Made With <i class="fa fa-heart-o"></i> By <b>Muhammad Kamran</b></p>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.js" integrity="sha256-fNXJFIlca05BIO2Y5zh1xrShK3ME+/lYZ0j+ChxX2DA=" crossorigin="anonymous"></script>
+
+<script>
+$(document).ready(function(){
+    $('.bottom').click(function(){
+        $('.screen').toggleClass('active');
+    })
+})
+</script>
+
+</body>
+</html>
